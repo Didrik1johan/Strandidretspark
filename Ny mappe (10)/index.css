@@ -1,0 +1,101 @@
+:hover {
+    color
+}
+
+ul {
+    list-style-type: none;
+    
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    font-style: italic;
+}
+
+li .active {
+    background-color: #ffffff;
+    float: right;
+}
+
+
+li {
+    float:left;
+    }
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 30% 10%;
+    text-decoration: wavy;
+}
+
+
+li a:hover {
+    background-color: rgba(215, 234, 255, 0.597);
+}
+
+.nav{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    
+    
+    
+    
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+
+.header {
+    background-color: rgb(239, 86, 15);
+    text-align: center;
+    padding: 2%
+}
+li img {
+    max-width: 65%;
+    height: auto;
+
+  }
+
+.content {
+    background-color: rgb(252, 114, 50);
+    text-align: center;
+}
+.textcontent{
+    background-color: rgb(191, 198, 208);
+    text-align: center;
+    padding: 2%;
+    
+}
+
+
+.MenuBar {
+    background-color: rgb(133, 128, 95);
+    text-align: left;
+    padding: 2%;
+}
+
+.News {
+    background-color: rgb(191, 198, 208);
+    text-align: center;
+    padding: 2%;
+}
+
+.info {
+    background-color:rgb(88, 93, 95);
+    font-style: italic;
+    color: rgb(239, 86, 15);
+    text-align: left;
+    padding: 2%;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+pre {
+    max-width: 100%;
+    height: auto;
+}
