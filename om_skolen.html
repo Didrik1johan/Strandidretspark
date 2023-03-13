@@ -32,6 +32,28 @@
             <img src="Bilder\halden-videregÃ¥ende-skole.png"" alt="">
         </pre>
     </div>
+                                                                      <p id="klikktest">klikk her</p>
+    <script>
+        window.onload = oppstart
+        function oppstart() {
+            document.getElementById("leggtil").onclick = leggtil
+        }
+function leggtil(){
+    var tid = new Date()
+    var nyttElement = document.createElement("li")
+
+    nyttElement.innerHTML = tid.getHours() + ":" + tid.getMinutes() + ":" + tid.getSeconds()
+    document.getElementById("tider").appendChild(nyttElement)
+}
+
+    </script>
+    <h1>rundertider</h1>
+    <p id="leggtil">leg til ny tud</p>
+    <h3>Tider</h3>
+    <ol id="tider">
+
+
+    </ol>
     
     <div class="content">
         <h1>apparater og hvordan man bruker dem</h1>
